@@ -1,0 +1,732 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+  <!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-38655730-3', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+  
+  
+  
+  
+  <style type="text/css">
+  * {
+    box-sizing: border-box;
+  }
+
+  html{
+	  font-family: 'Roboto Condensed', sans-serif;
+	  
+  }
+  
+  .jumbotron
+  {
+	 font-family: 'Roboto Condensed', sans-serif; 
+  }
+  
+  .page-footer a
+	{
+		color:#989898;
+	}
+  
+  
+  h2 
+{ 
+position: absolute; /* To place the text on the image*/
+bottom: 23%; /* The exact location of the text from the top of the image*/
+
+width: 100%; 
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+   margin-left: 5px;
+    line-height: 26px;
+    text-shadow: 1px 1px 2px #666;
+    
+
+}
+
+.price {
+	position: absolute;
+	bottom: 2%;
+    float: left;
+    background: url(images/visuals/price-back.png) no-repeat bottom right;
+    overflow: hidden;
+    padding: 16px 35px 0 5px;
+    margin-left: 7px;
+	margin-bottom: 0px;
+}
+
+.price_number {
+    font-size: 36px;
+    color: #000000;
+    font-weight: 700;
+	margin-top:-22px;
+   
+}
+
+.selection {
+  transition: linear 0.2s;
+}
+
+.selection:hover {
+  opacity: 0.7;
+}
+
+.display-photo{
+  display: none;
+}  
+
+.video-content{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  z-index: 1;
+  font-size:100px;
+		color:white;
+		font-style:italic;
+		font-weight:bolder;
+	
+		text-shadow: 2px 2px 4px #000000;
+  
+}
+.video-content-2{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  color:white;
+  z-index: 1;
+  text-shadow: 2px 2px 4px #000000;
+  font-size:35px;
+}
+.image-content{
+  position: relative;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  color:white;
+  z-index: 1;
+  text-shadow: 1px 1px 2px #0471b5;
+  background-color: #0471b5;
+  padding: 10px 0 10px 0;
+}
+
+.video-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.photo-container{
+  width:100%;
+}
+.photo-container img{
+  width:100%;
+}
+
+.box-titles{
+  font-size:22px; 
+  color:white; 
+  text-shadow: 1px 1px 2px #666;
+  top: 5px;
+}
+
+.price-text-position{
+  position:relative; 
+  bottom:6px; 
+  font-size:12px; 
+  font-weight:bold;
+}
+
+.card-height-adjustment{
+  height:208px;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 600px) {
+  .video-section {
+    display: none;
+    }
+
+  .display-photo{
+    display: inline;
+    position: relative;
+    top:50px;
+  }  
+
+  .box-titles{
+  font-size:18px; 
+  color:white; 
+  text-shadow: 1px 1px 2px #666;
+  top: 5px;
+}
+.video-content{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  z-index: 1;
+  font-size:65px;
+		color:white;
+		font-style:italic;
+		font-weight:bolder;
+	
+		text-shadow: 2px 2px 4px #000000;
+}
+.video-content-2{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  color:white;
+  z-index: 1;
+ text-shadow: 2px 2px 4px #000000;
+  font-size:20px;
+}
+}
+
+/* Above 1200px adjustment for cards */
+@media only screen and (min-width: 1200px){
+.card-height-adjustment{
+  height:253px;
+  width:253px;
+}
+}
+
+  </style>
+  
+  
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <link rel="icon" href="images/favicons.ico">
+    <meta http-equiv="content-language" content="en">
+   
+
+		<!-- COMMON TAGS -->
+	<meta charset="utf-8">
+	<title>Back to School | Decathlon Australia</title>
+	<!-- Search Engine -->
+	<meta name="title" content="Back to School | Decathlon Australia">
+	<!-- Search Engine -->
+	<meta name="description" content="Back to school equals back to sport! Equip your kids with quality products without emptying your wallet! Best value guaranteed. Free delivery above $80. 365 days return policy.">
+	<meta name="image" content="https://selection.decathlon.com.au/backtoschool/images/visual/kids-runnings.jpg">
+	<!-- Schema.org for Google -->
+	<meta itemprop="name" content="Back to School  | Decathlon Australia">
+	<meta itemprop="description" content="Back to school equals back to sport! Equip your kids with quality products without emptying your wallet! Best value guaranteed. Free delivery above $80. 365 days return policy.">
+	<meta itemprop="image" content="https://selection.decathlon.com.au/backtoschool/images/visual/kids-runnings.jpg">
+	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+	<meta property="og:title" content="Back to School  | Decathlon Australia">
+	<meta property="og:description" content="Back to school equals back to sport! Equip your kids with quality products without emptying your wallet! Best value guaranteed. Free delivery above $80. 365 days return policy.">
+	<meta property="og:image" content="https://selection.decathlon.com.au/backtoschool/images/visual/kids-runnings.jpg">
+	<meta property="og:url" content="https://selection.decathlon.com.au/backtoschool/">
+	<meta property="og:type" content="website">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/album.css" rel="stylesheet">
+
+    <!-- CSS file for the video background -->
+    <link href="css/video.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+     <header>
+	<nav class="navbar fixed-top " style="background-color:black" >
+		  <a class="navbar-brand" href="http://www.decathlon.com.au" >
+			<img src="images/logo-decathlon.png"  height="25px;"  alt="">
+		  </a>
+			   <span class="navbar-text">
+		<a style="color:white;" href="http://www.decathlon.com.au" >Back to Homepage</a>
+	  </span>
+		</nav>
+    </header>
+
+
+    <main role="main">
+
+      <!-- Video to play for tablets and desktop -->
+
+      <section class="video-container">
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" controls="true">
+          <source src="videos/decathlon-uk-back-to-school.mp4" type="video/mp4"/>
+        </video>
+        <div class="container h-100">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+              <h1 class="video-content">BACK TO SCHOOL</h1>
+              <p class="video-content-2">With Decathlon, equip your kids with quality products without emptying your wallet!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Image to substitute video for mobile view
+      <div class="display-photo">
+
+          <div class="photo-container">
+              <img src="images/visuals/kids-shoes.jpg"/>
+            </div>
+
+        <h1 class="image-content jumbotron-heading">BACK TO SCHOOL
+            <p class="image-content lead">It's this time of year. With Decathlon equip your kids with quality products without emptying your wallet! </p>
+        </h1>
+
+
+      </div> -->
+
+      <!-- Dividing text between video background and products -->
+	<!--
+      <section class="jumbotron text-center">
+
+        <div class="container">
+          <h1 class="jumbotron-heading" style="padding-top:20px;">Check Out Our Range!</h1>         
+        </div>
+      </section>
+!-->
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <!-- Row Start -->
+
+          <!-- Sport by Categories -->
+          <h1>BY SPORTS</h1>
+
+          <div class="row">
+            
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
+                <a href="https://www.decathlon.com.au/15333-baby-and-kids-clothes" title="Kids PE clothing">
+                      <div class="card mb-3 box-shadow">
+                        <img class="card-img card-height-adjustment" src="images/visuals/kids-pe-gear.jpg" alt="Kids PE clothing">
+                <h2 class="box-titles">
+                KIDS P.E. CLOTHING
+                </h2>
+                <div class="price">
+                          <div class="price-text-position">FROM</div>
+                          <div class="price_number">$3<sup>50</sup></div>					
+                        </div>
+                
+                      </div>
+                      </a>
+                    </div>
+
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
+                <a href="https://www.decathlon.com.au/14019-running-kid-s-clothing" title="Kids running clothing">
+                    <div class="card mb-3 box-shadow">
+                      <img class="card-img card-height-adjustment" src="images/visuals/kids-runnings.jpg" alt="Kids running clothing">
+              <h2 class="box-titles">
+              KIDS RUNNING CLOTHING
+              </h2>
+              <div class="price">
+                        <div class="price-text-position">FROM</div>
+                        <div class="price_number">$7<sup>00</sup></div>					
+                      </div>
+              
+                    </div>
+                    </a>
+                  </div>
+			
+            
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
+          <a href="https://www.decathlon.com.au/module/algolia/search?q=kids+swimwear&submit_search=" title="Kids swimwear" >
+                  <div class="card mb-3 box-shadow">
+                    <img class="card-img card-height-adjustment" src="images/visuals/kids-swimming.jpg" alt="Kids swimwear">
+            <h2 class="box-titles">
+            KIDS SWIMWEAR
+            </h2>
+            <div class="price">
+                      <div class="price-text-position">FROM</div>
+                      <div class="price_number">$3<sup>50</sup></div>					
+                    </div>
+            
+                  </div>
+            </a>
+                </div>
+
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
+                <a href="https://www.decathlon.com.au/module/algolia/search?q=kids+rashies&submit_search=" title="Kids rashies">
+                <div class="card mb-3 box-shadow">
+                  <img class="card-img card-height-adjustment" src="images/visuals/kids-rashies.jpg" alt="Kids rashies">
+          <h2 class="box-titles">
+          KIDS RASHIES
+          </h2>
+          <div class="price">
+                    <div class="price-text-position">FROM</div>
+                    <div class="price_number">$10<sup>00</sup></div>					
+                  </div>
+          
+                </div>
+                </a>
+              </div>
+
+          </div>
+          <!-- Row End -->
+
+          <!-- Row Start -->
+          <div class="row">
+
+          <div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
+              <a href="https://www.decathlon.com.au/15468-dance-clothes" title="Kids dance clothing">
+                    <div class="card mb-3 box-shadow">
+                      <img class="card-img card-height-adjustment" src="images/visuals/Kids-Dance.jpg" alt="Kids dance clothing">
+              <h2 class="box-titles">
+              KIDS DANCE CLOTHING
+              </h2>
+              <div class="price">
+                        <div class="price-text-position">FROM</div>
+                        <div class="price_number">$2<sup>00</sup></div>					
+                      </div>
+              
+                    </div>
+                    </a>
+                  </div>
+
+			<div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
+			<a href="https://www.decathlon.com.au/module/algolia/search?q=sports+bag&submit_search=" title="Sports bags" >
+              <div class="card mb-3 box-shadow">
+                <img class="card-img card-height-adjustment" src="images/visuals/kids-sportbags.jpg" alt="Sports bags">
+				<h2 class="box-titles">
+				SPORTS BAGS
+				</h2>
+				<div class="price">
+                	<div class="price-text-position">FROM</div>
+                 <div class="price_number">$8<sup>00</sup></div>					
+                </div>
+				
+              </div>
+			  </a>
+            </div>
+      
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
+                <a href="https://www.decathlon.com.au/14860-kids-scooters" title="Kids scooters">
+                      <div class="card mb-3 box-shadow">
+                        <img class="card-img card-height-adjustment" src="images/visuals/Kids-Scooter.jpg" alt="Kids scooters">
+                <h2 class="box-titles">
+                KIDS SCOOTERS
+                </h2>
+                <div class="price">
+                          <div class="price-text-position">FROM</div>
+                         <div class="price_number">$49<sup>00</sup></div>					
+                        </div>
+                
+                      </div>
+                      </a>
+                    </div>
+
+
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
+              <a href="https://www.decathlon.com.au/15083-kids-roller-blades-quad-skates" title="Kids rollerblades">
+                    <div class="card mb-3 box-shadow">
+                      <img class="card-img card-height-adjustment" src="images/visuals/kids-rollerblades.jpg" alt="Kids rollerblades">
+              <h2 class="box-titles">
+              KIDS ROLLERBLADES
+              </h2>
+              <div class="price">
+                        <div class="price-text-position">FROM</div>
+                       <div class="price_number">$36<sup>00</sup></div>					
+                      </div>
+              
+                    </div>
+              </a>
+                  </div>
+            
+          </div> 
+          <!-- Row End -->
+
+          <!-- Row Start -->
+
+          <div class="row">
+
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
+                  <a href="https://www.decathlon.com.au/module/algolia/search?q=soccer+balls&submit_search=" title="Soccer balls">
+                  <div class="card mb-3 box-shadow">
+                    <img class="card-img card-height-adjustment" src="images/visuals/kids-soccer-balls.jpg" alt="Soccer balls">
+            <h2 class="box-titles">
+            SOCCER BALLS
+            </h2>
+            <div class="price">
+                      <div class="price-text-position">FROM</div>
+                     <div class="price_number">$6<sup>50</sup></div>					
+                    </div>
+            
+                  </div>
+                  </a>
+                </div>
+
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
+              <a href="https://www.decathlon.com.au/module/algolia/search?q=kids+soccer+shoes&submit_search=" title="Kids soccer shoes">
+              <div class="card mb-3 box-shadow">
+                <img class="card-img card-height-adjustment" src="images/visuals/Soccer-Shoes.jpg" alt="Kids soccer shoes">
+				<h2 class="box-titles">
+				KIDS SOCCER SHOES
+				</h2>
+				<div class="price">
+                	<div class="price-text-position">FROM</div>
+                 <div class="price_number">$19<sup>00</sup></div>					
+                </div>
+				
+              </div>
+              </a>
+            </div>
+			
+      
+        <div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
+          <a href="https://www.decathlon.com.au/module/algolia/search?q=basketball%20balls&idx=decathlon_australia&p=0&submit_search=" title="Basketball balls">
+                <div class="card mb-3 box-shadow">
+                  <img class="card-img card-height-adjustment" src="images/visuals/kids-basketballs.jpg" alt="Basketball balls">
+          <h2 class="box-titles">
+          BASKETBALL BALLS
+          </h2>
+          <div class="price">
+                    <div class="price-text-position">FROM</div>
+                    <div class="price_number">$8<sup>00</sup></div>					
+                  </div>
+          
+                </div>
+                </a>
+              </div>
+			
+			<div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
+			<a href="https://www.decathlon.com.au/11284-childrens-basketball-shoes" title="Kids basketball shoes" >
+              <div class="card mb-3 box-shadow">
+                <img class="card-img card-height-adjustment" src="images/visuals/Basketball-Shoes.jpg" alt="Kids basketball shoes">
+				<h2 class="box-titles">
+				KIDS BASKETBALL SHOES
+				</h2>
+				<div class="price">
+                	<div class="price-text-position">FROM</div>
+                 <div class="price_number">$35<sup>00</sup></div>					
+                </div>
+				
+              </div>
+			  </a>
+            </div>
+            
+          </div> 
+          <!-- Row End -->
+
+          <br />
+
+          <!-- Sports by product -->
+          <h1>EVERYDAY USE</h1>
+
+          <!-- Row Start -->
+          <div class="row">
+
+          <div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
+              <a href="https://www.decathlon.com.au/module/algolia/search?q=kids+shirts&submit_search=" title="Kids t-shirts">
+              <div class="card mb-3 box-shadow">
+                <img class="card-img card-height-adjustment" src="images/visuals/Kids-T-Shirt.jpg" alt="Kids t-shirts">
+            <h2 class="box-titles">
+            KIDS T-SHIRTS
+            </h2>
+            <div class="price">
+                      <div class="price-text-position">FROM</div>
+                     <div class="price_number">$6<sup>00</sup></div>					
+                    </div>
+            
+                  </div>
+                  </a>
+                </div>
+      
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
+                <a href="https://www.decathlon.com.au/module/algolia/search?q=kids+shoes&submit_search=" title="Kids shoes">
+                      <div class="card mb-3 box-shadow">
+                        <img class="card-img card-height-adjustment" src="images/visuals/kids-shoes.jpg" alt="Kids shoes">
+                <h2 class="box-titles">
+                KIDS SHOES
+                </h2>
+                <div class="price">
+                          <div class="price-text-position">FROM</div>
+                          <div class="price_number">$10<sup>00</sup></div>					
+                        </div>
+                
+                      </div>
+                      </a>
+                    </div>
+			
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
+                  <a href="https://www.decathlon.com.au/module/algolia/search?q=socks&idx=decathlon_australia&p=0&dFR%5Bgender_id_en%5D%5B0%5D=CHILD&submit_search=" title="Kids socks">
+                      <div class="card mb-3 box-shadow">
+                        <img class="card-img card-height-adjustment" src="images/visuals/kids-socks.jpg" alt="Kids socks">
+                <h2 class="box-titles">
+                KIDS SOCKS
+                </h2>
+                <div class="price">
+                          <div class="price-text-position">FROM</div>
+                          <div class="price_number">$3<sup>00</sup></div>					
+                        </div>
+                
+                      </div>
+                      </a>
+                    </div>
+                    
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
+                  <a href="https://www.decathlon.com.au/13733-hiking-backpacks" title="Backpacks" >
+                          <div class="card mb-3 box-shadow">
+                            <img class="card-img card-height-adjustment" src="images/visuals/kids-backpack.jpg" alt="Backpacks">
+                    <h2 class="box-titles">
+                    KIDS BACKPACKS
+                    </h2>
+                    <div class="price">
+                              <div class="price-text-position">FROM</div>
+                              <div class="price_number">$5<sup>50</sup></div>					
+                            </div>
+                    
+                          </div>
+                    </a>
+                        </div>
+            
+          </div> 
+          <!-- Row End -->
+
+        </div>
+      </div>
+
+    </main>
+
+   
+   <footer class="page-footer font-small  pt-4" style="background-color:#302F2F; color:white; font-family: 'Roboto Condensed', sans-serif;">
+
+    <!-- Footer Links -->
+    <div class="text-center">
+
+      <!-- Grid row -->
+      <div class="row">
+
+      <!-- Grid column -->
+        <div class="col-md-4 mb-md-0 mb-4">
+
+            <!-- Links -->
+            <h5 class="text-uppercase" style="font-style:italic;">CUSTOMER SERVICE</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="http://content.decathlon.com.au/help">Contact us</a>
+              </li>
+              <li>
+                <a href="https://decathlonaustralia.freshdesk.com/support/home">FAQ</a>
+              </li>
+              <li>
+                <a href="https://decathlonaustralia.freshdesk.com/support/solutions/folders/8000083353">Exchange and refund</a>
+              </li>
+              <li>
+                <a href="https://decathlonaustralia.freshdesk.com/support/solutions/8000051515">Delivery</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+    
+
+        <!-- Grid column -->
+        <div class="col-md-4 mb-md-0 mb-4">
+
+            <!-- Links -->
+            <h5 class="text-uppercase" style="font-style:italic;">DISCOVER DECATHLON</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="http://team.decathlon.com.au/">Our Team</a>
+              </li>
+              <li>
+                <a href="http://content.decathlon.com.au/membership">Membership</a>
+              </li>
+              <li>
+                <a href="http://content.decathlon.com.au/aboutus">About us</a>
+              </li>
+              <li>
+                <a href="http://content.decathlon.com.au/join">Careers</a>
+              </li>
+			  <li>
+                <a href="http://content.decathlon.com.au/stores">Our stores</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 mb-md-0 mb-4">
+
+            <!-- Links -->
+            <h5 class="text-uppercase" style="font-style:italic;">FOLLOW US</h5>
+
+            <ul class="list-unstyled" >
+              <li>
+                <a href="https://www.facebook.com/DecathlonAustralia">Facebook</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/DecathlonAU/">Instagram</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UC70BD_Am0d-fgNl4lpiDvBw">Youtube</a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/decathlon-australia/about/">LinkedIn</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://www.decathlon.com.au"> Decathlon Australia Pty Ltd</a>
+    </div>
+    <!-- Copyright -->
+<br />
+
+  </footer>
+  <!-- Footer -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+   
+   
+   
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
