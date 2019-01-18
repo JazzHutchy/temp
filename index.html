@@ -188,6 +188,45 @@ width: 100%;
 }
 }
 
+/* Mobile view less than 450px */
+@media only screen and (max-width: 450px){
+.card-height-adjustment{
+  height:25vh;
+}
+
+.box-titles {
+  font-size: 14px;
+  color: white;
+  text-shadow: 1px 1px 2px #666;
+  top: 5px;
+}
+
+.price_number {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: -22px;
+}
+
+.price-text-position {
+    position: relative;
+    bottom: 11px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.price {
+    position: absolute;
+    bottom: 2%;
+    float: left;
+    background: url(images/visuals/price-back.png) no-repeat bottom right;
+    overflow: hidden;
+    padding: 12px 25px 0 5px;
+    margin-left: 7px;
+    margin-bottom: 0px;
+}
+}
+
 /* Above 1200px adjustment for cards */
 @media only screen and (min-width: 1200px){
 .card-height-adjustment{
@@ -223,7 +262,7 @@ width: 100%;
 	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
 	<meta property="og:title" content="Back to School  | Decathlon Australia">
 	<meta property="og:description" content="Back to school equals back to sport! Equip your kids with quality products without emptying your wallet! Best value guaranteed. Free delivery above $80. 365 days return policy.">
-	<meta property="og:image" content="https://selection.decathlon.com.au/backtoschool/images/visual/kids-runnings.jpg">
+	<meta property="og:image" content="images/visual/kids-runnings.jpg">
 	<meta property="og:url" content="https://selection.decathlon.com.au/backtoschool/">
 	<meta property="og:type" content="website">
 
@@ -307,7 +346,7 @@ width: 100%;
             <div class="col-6 col-sm-6 col-md-4 col-lg-3 selection">
                 <a href="https://www.decathlon.com.au/15333-baby-and-kids-clothes" title="Kids PE clothing">
                       <div class="card mb-3 box-shadow">
-                        <img class="card-img card-height-adjustment" src="images/visuals/kids-pe-gear.jpg" alt="Kids PE clothing">
+                        <img class="card-img card-height-adjustment" src="images/visuals/kids-PE-gear.jpg" alt="Kids PE clothing">
                 <h2 class="box-titles">
                 KIDS P.E. CLOTHING
                 </h2>
